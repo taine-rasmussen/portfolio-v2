@@ -19,6 +19,12 @@ const Profile = () => {
               <i><AiFillGithub /></i>
             </a>
           </div>
+          <div className='profile-details-name'>
+            <span className='primary-text'>
+              Hello, I'M <span className='highlighted-text'>Taine</span>
+            </span>
+
+          </div>
         </div>
       </div>
     </div>
