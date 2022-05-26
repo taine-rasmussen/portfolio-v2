@@ -1,6 +1,7 @@
 import React from 'react'
 import './Profile.css'
 import { AiOutlineInstagram, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import Typical from 'react-typical'
 
 
 const Profile = () => {
@@ -28,10 +29,22 @@ const Profile = () => {
           <div className='profile-details-role'>
             <span className='primary-text'>
               <h1>
-
+                {" "}
+                <Typical
+                  loop={Infinity}
+                  steps={[
+                    'Ethusiastic Dev',
+                    1000,
+                    'Full Stack Developer',
+                    1000,
+                    'Cross Platfrom',
+                    1000,
+                    'React/React Native Dev',
+                    1000,
+                  ]}
+                />
               </h1>
             </span>
-
           </div>
         </div>
       </div>
