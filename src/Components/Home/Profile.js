@@ -53,7 +53,7 @@ const Profile = () => {
             <button className='btn primary-btn'>
               Hire me
             </button>
-            <a href='Link to resmue will for here' download='Taine Rasmussen.pdf'>
+            <a href='Link to resume will for here' download='Taine Rasmussen.pdf'>
               <button className='btn highlighted-btn'>
                 Get Resume
               </button>
