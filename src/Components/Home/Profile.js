@@ -21,7 +21,15 @@ const Profile = () => {
           </div>
           <div className='profile-details-name'>
             <span className='primary-text'>
+              {" "}
               Hello, I'M <span className='highlighted-text'>Taine</span>
+            </span>
+          </div>
+          <div className='profile-details-role'>
+            <span className='primary-text'>
+              <h1>
+
+              </h1>
             </span>
 
           </div>
