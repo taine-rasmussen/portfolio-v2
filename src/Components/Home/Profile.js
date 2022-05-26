@@ -44,7 +44,20 @@ const Profile = () => {
                   ]}
                 />
               </h1>
+              <span className='profile-role-tagline'>
+                Knack of building apllications with front and back end operations.
+              </span>
             </span>
+          </div>
+          <div className='profile-options'>
+            <button className='btn primary-btn'>
+              Hire me
+            </button>
+            <a href='Link to resmue will for here' download='Taine Rasmussen.pdf'>
+              <button className='btn highlighted-btn'>
+                Get Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>
