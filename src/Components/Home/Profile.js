@@ -2,7 +2,7 @@ import React from 'react'
 import './Profile.css'
 import { AiOutlineInstagram, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Typical from 'react-typical'
-
+import profile from '../../assests/Home/profile.png'
 
 const Profile = () => {
   return (
@@ -64,9 +64,8 @@ const Profile = () => {
         </div>
         <div className='profile-picture'>
           <div className='profile-picture-background'>
-
+            <img src={profile} />
           </div>
-
         </div>
       </div>
     </div>
